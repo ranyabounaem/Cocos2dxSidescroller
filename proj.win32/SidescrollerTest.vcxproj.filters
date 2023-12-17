@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\CocosProjects\SidescrollerTest\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\CocosProjects\SidescrollerTest\Classes\MainScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\CocosProjects\SidescrollerTest\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\CocosProjects\SidescrollerTest\cocos2d\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParallaxObject.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\CocosProjects\SidescrollerTest\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\CocosProjects\SidescrollerTest\Classes\MainScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\CocosProjects\SidescrollerTest\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\CocosProjects\SidescrollerTest\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\CocosProjects\SidescrollerTest\Resources\CloseNormal.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\CocosProjects\SidescrollerTest\Resources\CloseSelected.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\CocosProjects\SidescrollerTest\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\CocosProjects\SidescrollerTest\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\CocosProjects\SidescrollerTest\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\CocosProjects\SidescrollerTest\Resources\res\.gitkeep">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="ParallaxObject.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\CocosProjects\SidescrollerTest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\CocosProjects\SidescrollerTest\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{0863BB15-BEF0-3BD3-B4D5-40ED1950E00D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{A3899B7C-1B23-3B0B-9BC1-2CDC8E645125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{AA7D3A9B-B5DE-3970-9FF2-49CB220E5B75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A12D2EF5-85F2-3BD0-8E70-1230373D2E2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{DA5420D0-CF6B-394B-AB8D-7C044FB8BD8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{21A1D728-0EB1-3432-B997-BE75807C035A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

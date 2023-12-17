@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{08107866-C684-34DA-AEC2-F90B0A22CB79}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\CocosProjects\SidescrollerTest\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/CocosProjects/SidescrollerTest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/CocosProjects/SidescrollerTest -BC:/CocosProjects/SidescrollerTest/proj.win32 --check-stamp-file C:/CocosProjects/SidescrollerTest/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\CocosProjects\SidescrollerTest\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;C:\CocosProjects\SidescrollerTest\cocos2d\cmake\Modules\CocosBuildSet.cmake;C:\CocosProjects\SidescrollerTest\cocos2d\cmake\Modules\CocosConfigDefine.cmake;C:\CocosProjects\SidescrollerTest\cocos2d\cmake\Modules\CocosConfigDepend.cmake;C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\3.28.0\CMakeCCompiler.cmake;C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\3.28.0\CMakeCXXCompiler.cmake;C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\3.28.0\CMakeRCCompiler.cmake;C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\3.28.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/CocosProjects/SidescrollerTest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/CocosProjects/SidescrollerTest -BC:/CocosProjects/SidescrollerTest/proj.win32 --check-stamp-file C:/CocosProjects/SidescrollerTest/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\CocosProjects\SidescrollerTest\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;C:\CocosProjects\SidescrollerTest\cocos2d\cmake\Modules\CocosBuildSet.cmake;C:\CocosProjects\SidescrollerTest\cocos2d\cmake\Modules\CocosConfigDefine.cmake;C:\CocosProjects\SidescrollerTest\cocos2d\cmake\Modules\CocosConfigDepend.cmake;C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\3.28.0\CMakeCCompiler.cmake;C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\3.28.0\CMakeCXXCompiler.cmake;C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\3.28.0\CMakeRCCompiler.cmake;C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\3.28.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/CocosProjects/SidescrollerTest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/CocosProjects/SidescrollerTest -BC:/CocosProjects/SidescrollerTest/proj.win32 --check-stamp-file C:/CocosProjects/SidescrollerTest/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\CocosProjects\SidescrollerTest\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;C:\CocosProjects\SidescrollerTest\cocos2d\cmake\Modules\CocosBuildSet.cmake;C:\CocosProjects\SidescrollerTest\cocos2d\cmake\Modules\CocosConfigDefine.cmake;C:\CocosProjects\SidescrollerTest\cocos2d\cmake\Modules\CocosConfigDepend.cmake;C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\3.28.0\CMakeCCompiler.cmake;C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\3.28.0\CMakeCXXCompiler.cmake;C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\3.28.0\CMakeRCCompiler.cmake;C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\3.28.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/CocosProjects/SidescrollerTest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/CocosProjects/SidescrollerTest -BC:/CocosProjects/SidescrollerTest/proj.win32 --check-stamp-file C:/CocosProjects/SidescrollerTest/proj.win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\CocosProjects\SidescrollerTest\cocos2d\cmake\Modules\CocosBuildHelpers.cmake;C:\CocosProjects\SidescrollerTest\cocos2d\cmake\Modules\CocosBuildSet.cmake;C:\CocosProjects\SidescrollerTest\cocos2d\cmake\Modules\CocosConfigDefine.cmake;C:\CocosProjects\SidescrollerTest\cocos2d\cmake\Modules\CocosConfigDepend.cmake;C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\3.28.0\CMakeCCompiler.cmake;C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\3.28.0\CMakeCXXCompiler.cmake;C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\3.28.0\CMakeRCCompiler.cmake;C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\3.28.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\CocosProjects\SidescrollerTest\proj.win32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\CocosProjects\SidescrollerTest\proj.win32\ZERO_CHECK.vcxproj">
+      <Project>{DA9C735E-B2C5-39F2-85B4-FD25B96986BF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\CocosProjects\SidescrollerTest\proj.win32\SYNC_RESOURCE-SidescrollerTest.vcxproj">
+      <Project>{3A63948C-0221-33BE-8ACA-B659940A850F}</Project>
+      <Name>SYNC_RESOURCE-SidescrollerTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\CocosProjects\SidescrollerTest\proj.win32\SidescrollerTest.vcxproj">
+      <Project>{B6543B42-49C9-3480-B5FB-BBAF545174E8}</Project>
+      <Name>SidescrollerTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CocosProjects\SidescrollerTest\proj.win32\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{252B9FA5-C417-37C2-A001-07B1A6D54119}</Project>
+      <Name>cocos2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CocosProjects\SidescrollerTest\proj.win32\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{9D6147F7-882D-346D-88AF-118001ED8AF5}</Project>
+      <Name>ext_clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CocosProjects\SidescrollerTest\proj.win32\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{6C7AD4CA-D7C3-3C34-BBBA-FDEB6EE4D171}</Project>
+      <Name>ext_convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CocosProjects\SidescrollerTest\proj.win32\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{BF63D340-13A4-32D9-9AAF-72345A3B116E}</Project>
+      <Name>ext_edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CocosProjects\SidescrollerTest\proj.win32\engine\external\md5\ext_md5.vcxproj">
+      <Project>{4ADA01B4-E83E-31B8-B5C7-EFC7BB4B0D43}</Project>
+      <Name>ext_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CocosProjects\SidescrollerTest\proj.win32\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{F439926D-403C-3B6E-BC2C-D5421200BBE5}</Project>
+      <Name>ext_poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CocosProjects\SidescrollerTest\proj.win32\engine\external\recast\ext_recast.vcxproj">
+      <Project>{C1999854-B9F1-3B18-BE68-A41987393383}</Project>
+      <Name>ext_recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CocosProjects\SidescrollerTest\proj.win32\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{16D978F5-C1AA-35F7-ADD3-E52538C86394}</Project>
+      <Name>ext_tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CocosProjects\SidescrollerTest\proj.win32\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{C27713BC-BA4C-32F2-8523-D226D6A8B641}</Project>
+      <Name>ext_unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CocosProjects\SidescrollerTest\proj.win32\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{11103083-B623-3CEE-87A6-E158824337F2}</Project>
+      <Name>ext_xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CocosProjects\SidescrollerTest\proj.win32\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{252E7447-1D7E-3CEA-9542-BB24FBC013B1}</Project>
+      <Name>ext_xxtea</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\CocosProjects\SidescrollerTest\proj.win32\engine\external\external.vcxproj">
+      <Project>{D91EEFA9-7425-3462-BD2B-FD46E67385F6}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
